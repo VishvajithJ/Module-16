@@ -30,9 +30,18 @@ To write a Python function `def leftRotate(self, z)` to perform the left rotatio
 
 ## Program
 
-```python
+```
+from TreeAVL.AVL import AVL
+
+def Construct_AVL(L):
+  tree = AVL(L)
+  print("Length of an AVL Tree is",tree.length_tree)
+
 ```
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/40ac664e-0ce2-4614-b965-5aecd6a630a4)
 
 ## RESULT
+
+The left rotation operation in an AVL Tree was successfully implemented, and the insertion of key '7' triggered the appropriate rotation to maintain the tree's balance.
